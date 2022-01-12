@@ -11,7 +11,6 @@ public class TokenStudy {
 		String [] s = str.split(",");
 		
 		StringTokenizer st = new StringTokenizer(str, ",");
-		
 		ArrayList<SeasonDTO> ar = new ArrayList<>();
 		
 		while(st.hasMoreTokens()) {
@@ -25,16 +24,11 @@ public class TokenStudy {
 			 ar.add(seasonDTO);
 			 System.out.println(seasonDTO.getName());
 			 System.out.println(seasonDTO.getGion());
-			
 		}
-		
 		for(int i=0;i<ar.size();i++) {
 			 SeasonDTO seasonDTO = ar.get(i);
 			System.out.println(seasonDTO.getName());
 			System.out.println(ar.get(i).getGion());
-		}
-		
-		
+		}	
 	}
-
 }

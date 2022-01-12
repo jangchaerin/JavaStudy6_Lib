@@ -17,8 +17,4 @@ public class SeasonDTO {
 	public void setGion(int gion) {
 		this.gion = gion;
 	}
-	
-	
-	
-
 }
