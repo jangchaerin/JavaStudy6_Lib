@@ -13,7 +13,8 @@ public class ExceptionMain3 {
 			e1.ex1();
 		}catch(InputMismatchException e) {
 			
-		}catch(ArithmeticException e) {
+		}
+			catch(ArithmeticException e) {
 			
 		}catch(Exception e) {
 			

@@ -1,7 +1,10 @@
 package com.chaerin.s5.ex1;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.Socket;
@@ -31,6 +34,12 @@ public class ClientMain {
          bw.write(message+"\r\n");	//\r 커서를 앞으로 보내라, \n 줄바꿈 
          //강제로 버퍼 비우기
          bw.flush();
+         
+     	InputStream is = socket.getInputStream();
+		InputStreamReader ir = new InputStreamReader(is);
+		BufferedReader br = new BufferedReader(ir);
+		message = br.readLine();
+		System.out.println("Server : "+message);
          
       } catch (Exception e) {
 
