@@ -1,4 +1,4 @@
-package com.chaerin.s3.ex1;
+package com.chaerin.s3.ex1.member;
 
 import java.util.ArrayList;
 

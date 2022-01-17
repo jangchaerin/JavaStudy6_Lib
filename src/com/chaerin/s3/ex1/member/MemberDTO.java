@@ -1,4 +1,4 @@
-package com.chaerin.s3.ex1;
+package com.chaerin.s3.ex1.member;
 
 public class MemberDTO {  //회원 1명을 의미
 

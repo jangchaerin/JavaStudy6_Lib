@@ -38,7 +38,6 @@ public class StudentData {
 		info.add(studentDTO);
 	}
 	
-	
 	public StudentDTO removeStuden(ArrayList<StudentDTO> info) {
 		
 		StudentDTO studentDTO = null;
@@ -54,9 +53,7 @@ public class StudentData {
 			}
 		}
 		return studentDTO;
-		
 	}
-	
 	
 	public ArrayList<StudentDTO> init(){
 		
@@ -76,11 +73,6 @@ public class StudentData {
 			
 			info.add(studentDTO);
 		}
-
 		return info;
-		
 	}
-
-	
-
 }
